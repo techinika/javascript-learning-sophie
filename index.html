@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-image">
+        <img src="./images/bg-desktop-light.jpg" alt="Bg Light" />
+      </div>
+
+      <div class="content-holder">
+        <div class="content">
+          <!-- This is a section wherer we find the title and the icon to toggle the dark/light mode -->
+          <div class="heading-row">
+            <h1>T O D O</h1>
+            <img src="./images/icon-moon.svg" alt="Toggle Dark Mode" />
+          </div>
+
+          <div class="typing-row">
+            <input type="radio" disabled />
+            <input type="text" value="Currently typing" />
+          </div>
+
+          <div class="list-options">
+            <ul class="list-items">
+              
+              <!-- <li>
+                <input type="radio" />
+                <p>Complete Javascript course</p>
+              </li> -->
+              
+            </ul>
+
+            <div class="options">
+              <p>5 items left</p>
+              <div>
+                <p>All</p>
+                <p>Active</p>
+                <p>Completed</p>
+              </div>
+              <p>Clear completed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

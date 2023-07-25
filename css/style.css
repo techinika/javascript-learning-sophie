@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+.top-image {
+    position: relative;
+}
+
+.top-image img {
+    width: 100%;
+}
+
+.content {
+    width: 40%;
+    margin: -220px auto;
+    position: absolute;
+}
+
+.heading-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.typing-row {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.typing-row input{
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: large;
+}
+
+.typing-row input[type="radio"] {
+    /* -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); */
+    width: 20px;
+    height: 20px;
+}
+
+.list-options {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 5px;
+}
+
+.list-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-items li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.list-items input{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.list-items p {
+    outline: none;
+    padding: 5px 10px;
+    font-size: large;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.options div {
+    display: flex;
+    gap: 10px;
+}
+
+.content-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
